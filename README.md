@@ -67,7 +67,7 @@ It serves as a foundation that can be expanded with features like:
 ## 🎥 Demo Video
 
 📺 **YouTube Walkthrough:**
-👉 *[Paste your YouTube video link here]*
+👉 *[https://youtu.be/VsNL7HR9n90]*
 
 ---
 
