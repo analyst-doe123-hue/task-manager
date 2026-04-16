@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gradient-to-br from-blue-50 via-indigo-100 to-purple-100 text-gray-900">
+     <body className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-indigo-100 to-purple-100 text-gray-900">
         {/* Navbar with glassmorphism effect */}
         <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/30 border-b border-white/40 shadow-sm">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,13 +38,13 @@ export default function RootLayout({
         </nav>
 
         {/* Main content – wider max-width, more padding */}
-        <main className="max-w-4xl mx-auto px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+        <main className="flex-1 w-full max-w-4xl mx-auto px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           {children}
         </main>
 
-        {/* Optional footer (remove if not needed) */}
+        {/* Optional footer */}
         <footer className="text-center text-gray-500 text-sm py-6 border-t border-white/40 mt-12">
-          <p>© 2025 Smart Task Manager – Stay organized</p>
+          <p>© 2025 Smart Task Manager – Stay organized by Gaylord Ndenga</p>
         </footer>
       </body>
     </html>
